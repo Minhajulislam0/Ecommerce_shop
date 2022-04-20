@@ -800,4 +800,19 @@ footer .copyright{
         text-align: start;
     }
 
+    /* single product */
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-img {
+        width: 100%;
+    }
+
+    #prodetails .sigle-pro-details {
+        width: 100%;
+    }
+
 }
