@@ -1,3 +1,5 @@
+// responsive barger button
+
 const bargerbtn = document.getElementById('bar');
 const closebtn = document.getElementById('close');
 const nav = document.getElementById('navbar');
@@ -14,7 +16,7 @@ if(closebtn){
     })
 }
 
-// single product
+// single product 
 
 const mainImg = document.getElementById('main-img');
 const subImg = document.getElementsByClassName('small-img');
@@ -34,3 +36,4 @@ subImg[3].onclick = function(){
 subImg[4].onclick = function(){
     mainImg.src = subImg[4].src;
 }
+
